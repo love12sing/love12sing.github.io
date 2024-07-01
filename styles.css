@@ -1,0 +1,53 @@
+/* 全局样式 */
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f2f2f2;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: #e36255;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+section {
+  text-align: center;
+  margin-top: 50px;
+}
+
+/* Win10风格按钮样式 */
+button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 0px;
+  background-color: #e36255;
+  color: #fff;
+  cursor: pointer;
+  font-size: 14px;
+width: 160px;
+  height: 50px;
+}
+
+
+button:hover {
+  background-color: #F2B47E;
+}
+
+button:active {
+  background-color: #F2B47E;
+}
+
+button:disabled {
+  background-color: #dcdcdc;
+  color: #a0a0a0;
+  cursor: not-allowed;
+}
+
+dibu{
+font-size: 14px;
+color:#e36255;
+}
